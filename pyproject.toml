@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=64.0.0"]
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+name="ferramentas"
+requires-python = ">=3.8"
+version="0.1"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ferramentas"]
